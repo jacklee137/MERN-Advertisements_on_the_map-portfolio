@@ -1,0 +1,22 @@
+# https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/#ignore-file
+# name // игнорировать все папки с именем name в любом месте (и файлов если имя без расширения)
+# name/ // игнорировать только папки с именем name в любом месте
+# name.md // игнорировать все файлы с именем name.md в любом месте
+# /text.txt // игнорировать конкретный файл в корневом каталоге
+# /folder/ // игнорировать конкретный файл в корневом каталоге
+# *.log // игнорировать все файлы с расширением '.log'
+
+
+### Этот файл для использования в корневом каталоге - над папками 'frontend', 'backend'
+# dependencies in any folders
+node_modules/
+# production folder
+/frontend/build
+# env (use '.env.local' for dev; '.env.prod' for prod)
+.env
+
+
+# Файлы конфигурации редакторов ...
+.idea
+.DS_Store
+.vscode
