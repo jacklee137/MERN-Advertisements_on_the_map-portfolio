@@ -1,4 +1,4 @@
-# MERN-Advertisements_on_the_map-portfolio
+# MERN-Advertisements_on_the_map-legacy_support!
 Main priority is stability of app:\
     &emsp;- typeScript (tsx) - strict type\
     &emsp;- testing react\
